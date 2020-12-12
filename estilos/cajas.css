@@ -1,7 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
 
     background-color: slateblue;
     font-size: 10px;   /* esta caracteristica la hereda a las hijas*/
+    
+}
+#nuevo{
+    width: 90%;
+    height: 50px;
+    border: 2px dashed white;
+    padding: 10px;
+    background-color: crimson;
+}
+#nuevo > div {
+    background-color: white;
+    width: 50%;
+
+}
+#span{/*elemento span no puede ser modificado como una caja, ni alto ni ancho. solo como texto, usar font-size*/
+    width: 90%;
+    /*height:50px*/
+    background-color: blue;
+    font-size: 10rem;
+    display: block;/*hace que el texto se conporte como caja y se le pueda asignar alto y ancho*/
 }
 
 #caja1{
@@ -9,6 +34,7 @@ body{
     background-color: snow;
     font-size: 2em;/*sobre escribe el atributo, este manda al de body*/
     height: 300px;
+    padding: 10px;/*aplica margen hacia adentro*/
 }
 #caja1 > .cajas > p {   /* selector explicito    >    */
 /*es una ruta directa al objeto para darle los atributos*/
@@ -23,10 +49,11 @@ body{
 
 .cajas{
     background-color: violet;
-    width: 20%;
+    width: 18%;
     height: 200px;
     /*border: 2px solid #FFF;*/
     float: left; /*cambia los elementos en vertical a posision horizontal*/
     margin-left: 4%;
     margin-top: 20px;
+    padding: 10px;
 }
