@@ -1,0 +1,86 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+#cabecera{
+
+    background-color:red;
+    height: 150px;
+}
+#izq{
+    float: left;
+    width: 12%;
+    height: 70%;
+    background-color: rgb(226, 147, 1);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#der{
+    float: right;
+    width: 12%;
+    height: 70%;
+    background-color: rgb(226, 147, 1);
+    margin-top: 15px;
+    margin-right: 15px;
+}
+#centro{
+    background-color: white;
+    height: 500px;
+
+}
+#rosado{
+
+    background-color: rgb(255, 0, 128);
+    height: 500px;
+}
+.boxs{
+    
+    background-color: purple;
+    float: left;
+    width: 21%;
+    height: 80%;
+    margin-left: 2%;
+    margin-top: 30px;
+    padding:20px ;
+    
+}
+#azulito{
+
+    background-color: blue;
+    height: 500px;
+}
+.moradon{
+    float: left;
+    width: 47%;
+    height: 80%;
+    background-color: rgb(120, 0, 145);
+    margin-top: 2%;
+    margin-left: 2%;
+
+
+}
+.moradon2{
+   
+    float: right;
+    width: 47%;
+    height: 80%;
+    background-color: rgb(120, 0, 145);
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#pie{
+
+    background-color: rgb(88, 10, 10);
+    height: 500px;
+}
+.solo{
+
+    background-color: purple;
+    height: 70%;
+    width: 40%;
+    float:left;
+    margin-top: 80px;
+    margin-left: 30%;
+}
