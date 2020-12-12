@@ -1,0 +1,32 @@
+body{
+
+    background-color: slateblue;
+    font-size: 10px;   /* esta caracteristica la hereda a las hijas*/
+}
+
+#caja1{
+
+    background-color: snow;
+    font-size: 2em;/*sobre escribe el atributo, este manda al de body*/
+    height: 300px;
+}
+#caja1 > .cajas > p {   /* selector explicito    >    */
+/*es una ruta directa al objeto para darle los atributos*/
+/*procesa mas rapido, el navegador lee mas rapido*/
+    font-size: 1em;
+    color: yellow;
+}
+#caja2{
+
+    background-color: turquoise;
+}
+
+.cajas{
+    background-color: violet;
+    width: 20%;
+    height: 200px;
+    /*border: 2px solid #FFF;*/
+    float: left; /*cambia los elementos en vertical a posision horizontal*/
+    margin-left: 4%;
+    margin-top: 20px;
+}
